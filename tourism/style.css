@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header{
+    background-image: url('img1.jpg'); 
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.tourism{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.header-text{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.header-text-top{
+        font-size: 36px;
+        opacity: 0.7;
+        text-transform: uppercase;
+        padding: 0;
+        margin-right: 65%;
+        padding-top: 5%;
+}
+
+h1{
+        font-size: 60px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        margin-right: 51%;
+}
+
+.header-text-bottom{
+        width: 50%;
+        padding-top: 0px;
+        font-size: 20px;
+        opacity: 0.8;
+
+        margin-top: 0;
+}
+
+main{
+    width: 100vh;
+    margin: 0;
+}
+ .gallery{
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+}
+
+ .gallery-text {
+     display: flex;
+     margin-left: 0;
+ }
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+ h2 {
+     margin-right: 50px;
+     font-size: 30px;
+     padding-top: 35px;
+     padding-left: 0;
+     opacity: 0.8;
+ }
+
+ .gallery-descr {
+     padding-top: 35px;
+     padding-bottom: 25px;
+     opacity: 0.7;
+ }
+
+ .left-img{
+     width: 60%;
+     padding: 0;
+     margin-right: 20px;
+ }
+
+ .right-img{
+     width: 50%;
+ }
+
+ .photo-top{
+     margin-bottom: 20px;
+ }
+
+ img{
+     width: 100%;
+     margin: 0;
+ }
+
+ footer {
+    background-image: url(img3.jpg);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ h3{
+     border: 1px solid white;
+     padding: 15px 10px;
+     margin-bottom: 30px;
+ }
